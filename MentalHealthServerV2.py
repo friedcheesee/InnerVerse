@@ -169,6 +169,10 @@ Format the above as a JSON Dictionary and give the answer with the following key
 """
 
 
+
+
+
+
 flagError = []
 
 QA_PROMPT = PromptTemplate(input_variables=["context","question"],template=template)
@@ -208,6 +212,17 @@ embeddings = OpenAIEmbeddings(
 deployment=deployment_name,
 model="text-embedding-ada-002"
 )
+
+# Reading Pinecone Keys From Config.json
+if os.getenv("PINECONE_API_KEY") is None or os.getenv("PINECONE_API_KEY") == "":
+    os.environ["PINECONE_API_KEY"] =readconfig("PINECONE_API_KEY")
+    
+    logger.info("Config: PINECONE_API_KEY")
+
+if os.getenv("PINECONE_ENVIRONMENT") is None or os.getenv("PINECONE_ENVIRONMENT") == "":
+    os.environ["PINECONE_ENVIRONMENT"] =readconfig("PINECONE_ENVIRONMENT")
+
+    logger.info("Config: PINECONE_ENVIRONMENT")
 
 # initialize pinecone
 pinecone.init(
