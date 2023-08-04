@@ -206,7 +206,7 @@ os.environ["OPENAI_API_TYPE"] =""
 deployment_name='workstationada' 
 
 
-INDEX_NAME = "demoindexaditya"
+INDEX_NAME = "INDEX_NAME"
 
 embeddings = OpenAIEmbeddings(
 deployment=deployment_name,
