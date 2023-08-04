@@ -1,0 +1,5 @@
+{
+    "OPENAI_API_KEY":"xxxxxxxxxxx",
+    "PINECONE_API_KEY":"xxxxxxxxxxxxxxxxx",
+    "PINECONE_ENVIRONMENT" :"xxxxxxxxxxxxxx"
+}
