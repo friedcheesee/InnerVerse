@@ -82,18 +82,18 @@ s.theme_use("winnative")
 
 
 # Create a chat box
-chat_box = tk.Text(window, wrap = WORD, width=60, height=15,bg="black")
+chat_box = tk.Text(window, wrap = WORD, width=80, height=35,bg="#FAFAEB")
 chat_box.grid(column=0, row=0, padx=2, pady=2, columnspan=10, rowspan= 10)
 
 
-Citation_Text = tk.Text(window,wrap=WORD, width=60, height=15,bg="grey")
+Citation_Text = tk.Text(window,wrap=WORD, width=80, height=35,bg="#CDCDC0")
 Citation_Text.grid(column=10, row=0, padx=2, pady=2,columnspan=10, rowspan=10)
 
 
 
 #give different colours for the messages.
-chat_box.tag_configure("user", foreground="orange", justify="right")
-chat_box.tag_configure("ai", foreground="white", justify = "left")
+chat_box.tag_configure("user", foreground="#000000", justify="right")
+chat_box.tag_configure("ai", foreground="#4B4B00", justify = "left")
 
 # Create an entry field for user input
 entry = tk.Entry(window, width=100)
