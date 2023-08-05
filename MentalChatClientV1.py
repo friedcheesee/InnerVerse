@@ -92,8 +92,8 @@ Citation_Text.grid(column=10, row=0, padx=2, pady=2,columnspan=10, rowspan=10)
 
 
 #give different colours for the messages.
-chat_box.tag_configure("user", foreground="#000000", justify="right")
-chat_box.tag_configure("ai", foreground="#4B4B00", justify = "left")
+chat_box.tag_configure("user", foreground="#272740", justify="right")
+chat_box.tag_configure("ai", foreground="#27496D", justify = "left")
 
 # Create an entry field for user input
 entry = tk.Entry(window, width=100)
