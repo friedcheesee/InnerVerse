@@ -21,6 +21,7 @@ Getting Started:
 To set up the project locally, follow these steps:
 
 * Clone the repository: git clone https://github.com/friedcheesee/IEEEsmartmentor.git
-* Configure your API keys and tokens in the designated configuration files.
+* Configure your API keys, and the pinecone index in the designated configuration files, and server file.
+* Open a terminal and run 'pip install -r requirements.txt'
 * Run the chatbot application: MentalHealthServerV2.py, and then MentalChatClient1.py
 * Interact with the chatbot through the provided interface.
