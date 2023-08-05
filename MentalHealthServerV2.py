@@ -382,12 +382,12 @@ def askquery_post():
             }
 
         if(Assistant['MentalHealth']==False):
-            Assistant['Answer']='Hmm, I'' m not sure I can only answer question on Finance'
+            Assistant['Answer']='Hmm, I'' m not sure, I can only answer question on mental health'
             Assistant['Source']=''
             
             
         if(Assistant['Suicidal']==True):
-            Assistant['Answer']='Ypu need to seek urgent medical advice , please call the following helpline +91-XXXXXXXXXXX'
+            Assistant['Answer']='You need to seek urgent medical advice , please call the following helpline +91-XXXXXXXXXXX'
             List = [user_input]
             with open('Questions.csv', 'a') as f_object:
                 writer_object = writer(f_object)
