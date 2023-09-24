@@ -20,13 +20,13 @@ Features:
 
 
 Query to LLM which acts as a friend or a mental health specialist based on input:
-![openquery](open.png)
+![openquery](/assets/open.png)
 
 Vector results from pinecone DB which contains verified mental health resources.
-![vector](vec.png)
+![vector](/assets/vec.png)
 
 Block Diagram:
-![block](block.png)
+![block](/assets/block.png)
 
 
 References:
