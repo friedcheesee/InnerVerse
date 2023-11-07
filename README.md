@@ -18,6 +18,7 @@ Features:
 * Has multiple API's incorporated to include the service of connecting nearby support centres and emergency services (Detects self harm tones and automatically alerts authorities).
 * Multi- Lingual Support
 
+![Working demo:](https://www.youtube.com/watch?v=rYcOEaN-v0I)
 
 Query to LLM which acts as a friend or a mental health specialist based on input:
 ![openquery](/assets/open.png)
