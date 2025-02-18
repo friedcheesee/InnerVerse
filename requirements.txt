@@ -1,7 +1,7 @@
-Flask==2.3.2
-Flask-Cors==4.0.0
-langchain==0.0.312
-openai==0.27.8
-pinecone-client==2.2.2
-requests==2.31.0
-waitress==2.1.2
+Flask
+Flask-Cors
+langchain
+openai
+pinecone-client
+requests
+waitress
