@@ -1,10 +1,10 @@
-# InnerVerse - Mental Health-Oriented Chatbot with ChatGPT API
+# InnerVerse - Mental Health-Oriented Chatbot with GPT 3.5 Turbo
 #Description:
-This repository contains the codebase and resources for a mental health-oriented chatbot developed using the ChatGPT API. The chatbot aims to provide support, information, and resources related to mental health queries. The project focuses on efficient communication, security, and accuracy.
+This repository contains the codebase and resources for a mental health-oriented chatbot developed using GPT 3.5 Turbo. The chatbot aims to provide support, information, and resources related to mental health queries. The project focuses on efficient communication, security, and accuracy.
 
 ## Features:
 
-* Utilizes the ChatGPT API for the basic chatbot framework.
+* Utilizes GPT 3.5 Turbo for the basic chatbot framework.
 * Implements encryption and security measures through a secure vault mechanism to protect API keys. (for now, they are stored in Config.json)
 * Adopts a prompt-based engineering method for quicker training and response time.
 * Customized prompts guide the chatbot's interactions, a technique known as shot prompting.
